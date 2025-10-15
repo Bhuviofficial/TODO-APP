@@ -1,0 +1,88 @@
+# TODO App
+
+A simple and efficient TODO application to help you manage your daily tasks. This app allows users to add, edit, delete, and mark tasks as completed, providing an organized way to track progress and stay productive.
+
+## Features
+
+- Add new tasks with descriptions
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or pending
+- View all tasks in a list
+- Responsive and user-friendly interface
+
+## Technologies Used
+
+- Frontend: (e.g., React, Vue, Angular, or plain HTML/CSS/JavaScript)
+- Backend: (e.g., Node.js, Express, Django, Flask, or any other)
+- Database: (e.g., MongoDB, PostgreSQL, SQLite, or local storage)
+- Styling: (e.g., CSS, SASS, Bootstrap, Tailwind)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed (if using JavaScript frameworks)
+- Python and pip (if using Python frameworks)
+- Any other dependencies as per your tech stack
+
+### Installation
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/todo-app.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd todo-app
+    ```
+3. Install dependencies:
+    ```
+    npm install
+    ```
+    or
+    ```
+    pip install -r requirements.txt
+    ```
+
+### Running the App
+
+- For frontend only:
+  ```
+  npm start
+  ```
+- For backend:
+  ```
+  npm run server
+  ```
+  or
+  ```
+  python app.py
+  ```
+
+## Usage
+
+1. Open the app in your browser.
+2. Add tasks using the input field.
+3. Edit or delete tasks as needed.
+4. Mark tasks as completed to track your progress.
+
+## Folder Structure
+
+```
+todo-app/
+├── public/              # Static files (index.html, favicon, etc.)
+├── src/                 # Source code
+│   ├── components/      # Reusable UI components (TaskList, TaskItem, etc.)
+│   ├── pages/           # App pages (Home, About, etc.)
+│   ├── styles/          # CSS/SASS/Tailwind files
+│   ├── App.js           # Main app component
+│   └── index.js         # Entry point
+├── backend/             # Backend code (if applicable)
+│   ├── models/          # Database models
+│   ├── routes/          # API routes
+│   └── server.js        # Server entry point
+├── package.json         # Project metadata and dependencies
+├── requirements.txt     # Python dependencies (if using Python)
+└── README.md            # Project documentation
+```
